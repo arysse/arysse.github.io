@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rounded edges */
+* {
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+}
+/* Buttons */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    /* Add additional hover effects here */
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+body {
+     font-family: 'Yeseva One', serif;
+    /* Other styles */
+}
+
+/* You can also apply the font to specific elements */
+h1, {
+     font-family: 'Yeseva One', serif;
+      text-align: center;
+    /* Other styles */
+}
+h2, h3, h4, h5, h6{
+     font-family: 'Yeseva One', serif;
+    text-align: center;
+    /* Other styles */
+}
+/* Social media buttons */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.social-links .btn /* Buttons */{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px; /* Make the button edges round */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 10px #ccc;
+    font-family: 'Lora', serif;
+}
+
+
+.btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.1); /* Scale the button on hover */
+    box-shadow: 4px 4px 15px #ccc; /* Increase the shadow effect on hover */
+}
+
+
+.social-links .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.social-links .facebook {
+    background-color: #3b5998;
+}
+
+.social-links .twitter {
+    background-color: #1da1f2;
+}
+
+.social-links .instagram {
+    background-color: #e1306c;
+}
+
+.social-links .linkedin {
+    background-color: #0077b5;
+}
+
+.social-links .youtube {
+    background-color: #ff0000;
+}
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+p {
+     font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 600;
+    /* Other styles */
+}
