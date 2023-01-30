@@ -107,7 +107,7 @@ div {
 #social-media-container {
   position: fixed;
   bottom: 10px;
-   right: 0px;
+   left:  0px;
 }
 
 .social-media-button {
