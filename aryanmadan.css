@@ -35,7 +35,7 @@
     margin: 1em auto;
         color: #fff;
   padding: 0.2em;
-    border-radius: 100px;
+    border-radius: 60px;
     margin-right: auto;
 font-size: 50px;
   }
@@ -81,6 +81,10 @@ right: 0px;
   display: flex;
   flex-direction: column;
 }
+
+header nav a {
+  display: none;
+  }
 }
 
 /* big screens */
