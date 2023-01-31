@@ -3,7 +3,7 @@
   body {
     padding-left: 2em;
       font-family: Space Grotesk, sans-serif;
-      font-size: 10em;
+      font-size: 60px;
   margin: 0;
   background-color: #201c1c;
   padding-top: 2em;
@@ -11,6 +11,7 @@
   background-image: url(https://media.discordapp.net/attachments/1057636695496998945/1069277186420396153/ARYAN_backgr.png?width=832&height=468);
   background-size: contain;
   background-position: center;
+    scale:
   }
   
   header h1 {
@@ -45,7 +46,7 @@
   }
   
   .customimg {
-    padding-left: 4.5em;
+    padding-left: 5.5em;
      position: relative;
   display: inline-block;
       transition: opacity 0.5s ease-in-out;
@@ -53,7 +54,7 @@
   }
   
   h2 {
-    font-size: 60px;
+    font-size: 150px;
   }
   
   #social-media-container {
