@@ -34,13 +34,13 @@
   }
   
   div {
-    width: 80%;
+    width: 100%;
     margin: 1em auto;
         color: #fff;
-  padding: 1.2em;
+  padding: 0.2em;
     border-radius: 10px;
     margin-right: auto;
-      box-sizing: border-box;
+font-size: 50px;
   }
   
   .customimg {
@@ -51,7 +51,7 @@
   }
   
   h2 {
-    font-size: 60px;
+    font-size: 100px;
   }
   
   #social-media-container {
@@ -85,6 +85,9 @@ right: 0px;
   display: flex;
   flex-direction: column;
 }
+
+nav {
+    display: none;
 }
 
 /* big screens */
