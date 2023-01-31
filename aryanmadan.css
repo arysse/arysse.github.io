@@ -11,7 +11,6 @@
   background-image: url(https://media.discordapp.net/attachments/1057636695496998945/1069277186420396153/ARYAN_backgr.png?width=832&height=468);
   background-size: contain;
   background-position: center;
-    scale:
   }
   
   header h1 {
@@ -27,13 +26,14 @@
   margin: 0;
   padding: 0;
   display: flex;
-    flex-direction: column;
+      display: none;
   }
   
   header nav {
     padding-right: 2em;
         display: flex;
   justify-content: center;
+      display: none;
   }
   
   div {
@@ -52,6 +52,8 @@
   display: inline-block;
       transition: opacity 0.5s ease-in-out;
   opacity: 1;
+    width: 100px;
+    height 200px;
   }
   
   h2 {
