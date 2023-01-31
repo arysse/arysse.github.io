@@ -1,5 +1,97 @@
-body {
-  font-family: Space Grotesk, sans-serif;
+/* small screens */
+@media (max-width: 1024px) {
+  body {
+    padding-left: 2em;
+      font-family: Space Grotesk, sans-serif;
+  margin: 0;
+  background-color: #201c1c;
+  padding-top: 2em;
+  color: #fff;
+  background-image: url(https://media.discordapp.net/attachments/1057636695496998945/1069277186420396153/ARYAN_backgr.png?width=832&height=468);
+  background-size: contain;
+  background-position: center;
+  }
+  
+  header h1 {
+    padding-left: 2em;
+        margin: 0;
+  color: #fff;
+  font-size: 1.5em;
+  }
+  
+  header nav ul {
+    justify-content: space-between;
+        list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  header nav {
+    padding-right: 2em;
+        display: flex;
+  justify-content: center;
+  }
+  
+  div {
+    width: 80%;
+    margin: 1em auto;
+        color: #fff;
+  padding: 1.2em;
+    border-radius: 10px;
+    margin-right: auto;
+      box-sizing: border-box;
+  }
+  
+  .customimg {
+    padding-left: 1.5em;
+     position: relative;
+  display: inline-block;
+      transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  }
+  
+  h2 {
+    font-size: 60px;
+  }
+  
+  #social-media-container {
+    width: 80px;
+        position: fixed;
+  top: 100px;
+right: 0px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .social-media-button {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+        display: inline-block;
+  background-color: #ddd;
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+    margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+     text-align: center;
+      display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  }
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+/* big screens */
+@media (min-width: 1025px) {
+  body {
+font-family: Space Grotesk, sans-serif;
   margin: 0;
   background-color: #201c1c;
   padding-top: 2em;
@@ -8,8 +100,84 @@ body {
   background-image: url(https://media.discordapp.net/attachments/1057636695496998945/1069277186420396153/ARYAN_backgr.png?width=832&height=468);
   background-size: contain;
   background-position: center;
+  }
+  
+  header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5em;
+  }
+  
+  header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  header nav {
+  display: flex;
+  justify-content: center;
+  padding-right: 7em;
+  }
+  
+  div {
+  color: #fff;
+  padding: 1.2em;
+  width: 600px; 
+  margin: 1em;
+    border-radius: 10px;
+    margin-right: auto;
+      box-sizing: border-box;
+  }
+  
+  .customimg {
+ padding-left: 3.5em;
+     position: relative;
+  display: inline-block;
+      transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  }
+  
+  h2 {
+  font-size: 100px;
+  }
+  
+  #social-media-container {
+  position: fixed;
+  top: 100px;
+right: 0px;
+      width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .social-media-button {
+  display: inline-block;
+  background-color: #ddd;
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+    margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+    width: 30px;
+    height: 30px;
+     text-align: center;
+      display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+      font-size: 22px;
+  }
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+}
 }
 
+/* END */
 header nav a {
   color: #fff;
   text-decoration: none;
@@ -41,50 +209,9 @@ header h1 {
   margin: 0;
   color: #fff;
   font-size: 1.5em;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-  padding-right: 7em;
-}
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-header h1 {
-  margin: 0;
-  color: #fff;
-  font-size: 1.5em;
   padding-left: 5em;
 }
-h2 {
-  font-size: 100px;
-}
-.boxes-container {
-  display: flex;
-  flex-direction: row;
-}
 
-div {
-  color: #fff;
-  padding: 1.2em;
-  width: 600px; 
-  margin: 1em;
-    border-radius: 10px;
-    margin-right: auto;
-}
-.customimg {
- padding-left: 3.5em;
-     position: relative;
-  display: inline-block;
-      transition: opacity 0.5s ease-in-out;
-  opacity: 1;
-}
 .customimg:hover {
   opacity: 0.5;
 }
@@ -104,32 +231,6 @@ div {
     cursor: pointer;
     transform: scale(1.1);
   }
-#social-media-container {
-  position: fixed;
-  top: 100px;
-right: 0px;
-      width: 100px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.social-media-button {
-  display: inline-block;
-  background-color: #ddd;
-  color: #333;
-  padding: 10px;
-  border-radius: 50%;
-  margin-right: 10px;
-    margin-bottom: 10px;
-  transition: all 0.2s ease-in-out;
-    width: 30px;
-    height: 30px;
-     text-align: center;
-      display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-      font-size: 22px;
-}
 
 .social-media-button:hover {
   transform: scale(1.1);
