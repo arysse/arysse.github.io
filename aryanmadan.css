@@ -28,7 +28,7 @@
   header nav {
         display: flex;
  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   }
   
   div {
@@ -36,7 +36,7 @@
     margin: 1em auto;
         color: #fff;
   padding: 0.2em;
-    border-radius: 40px;
+    border-radius: 20px;
     margin-right: auto;
 font-size: 50px;
   }
