@@ -2,7 +2,7 @@
 @media (max-width: 1024px) {
   body {
       font-family: Space Grotesk, sans-serif;
-      font-size: 10em;
+      font-size: 50px;
   margin: 0;
   background-color: #201c1c;
   padding-top: 2em;
@@ -13,7 +13,6 @@
   }
   
   header h1 {
-    padding-left: 2em;
         margin: 0;
   color: #fff;
   font-size: 1.5em;
@@ -24,11 +23,10 @@
         list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: none;
   }
   
   header nav {
-    padding-right: 2em;
         display: flex;
   justify-content: center;
   }
