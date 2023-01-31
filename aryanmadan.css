@@ -91,6 +91,9 @@ right: 0px;
   display: flex;
   flex-direction: column;
 }
+
+nav {
+   display: none;
 }
 
 /* big screens */
