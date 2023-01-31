@@ -3,6 +3,7 @@
   body {
     padding-left: 2em;
       font-family: Space Grotesk, sans-serif;
+      font-size: 2em;
   margin: 0;
   background-color: #201c1c;
   padding-top: 2em;
@@ -44,7 +45,7 @@
   }
   
   .customimg {
-    padding-left: 1.5em;
+    padding-left: 4.5em;
      position: relative;
   display: inline-block;
       transition: opacity 0.5s ease-in-out;
