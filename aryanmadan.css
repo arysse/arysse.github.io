@@ -28,7 +28,6 @@
   }
   
   header nav {
-    padding-right: 2em;
         display: flex;
   justify-content: center;
       display: none;
@@ -38,7 +37,6 @@
     width: 80%;
     margin: 1em auto;
         color: #fff;
-  padding: 1.2em;
     border-radius: 10px;
     margin-right: auto;
       box-sizing: border-box;
@@ -73,7 +71,6 @@ right: 0px;
         display: inline-block;
   background-color: #ddd;
   color: #333;
-  padding: 10px;
   border-radius: 50%;
   margin-right: 10px;
     margin-bottom: 10px;
@@ -93,13 +90,14 @@ nav {
    display: none;
 }
 
-/* big screens */
+  /* big screens */
 @media (min-width: 1025px) {
   body {
 font-family: Space Grotesk, sans-serif;
   margin: 0;
   background-color: #201c1c;
   padding-top: 2em;
+  padding-left: 5em;
   color: #fff;
   background-image: url(https://media.discordapp.net/attachments/1057636695496998945/1069277186420396153/ARYAN_backgr.png?width=832&height=468);
   background-size: contain;
@@ -137,10 +135,12 @@ font-family: Space Grotesk, sans-serif;
   }
   
   .customimg {
+ padding-left: 3.5em;
      position: relative;
   display: inline-block;
       transition: opacity 0.5s ease-in-out;
   opacity: 1;
+      widh
   }
   
   h2 {
