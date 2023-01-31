@@ -16,7 +16,6 @@
         margin: 0;
   color: #fff;
   font-size: 1.5em;
-      display: none;
   }
   
   header nav ul {
@@ -36,7 +35,7 @@
     margin: 1em auto;
         color: #fff;
   padding: 0.2em;
-    border-radius: 30px;
+    border-radius: 100px;
     margin-right: auto;
 font-size: 50px;
   }
@@ -82,9 +81,6 @@ right: 0px;
   display: flex;
   flex-direction: column;
 }
-
-header nav a {
-    display: none;
 }
 
 /* big screens */
